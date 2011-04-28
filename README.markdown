@@ -24,5 +24,10 @@ Thanks to
 ---------
 
 Idea and  HowTo: [Hak5 Ep. 910](http://www.hak5.org/episodes/episode-910) and [Hak5 Forums](http://www.hak5.org/forums/index.php?showtopic=17379) as done by [John Bebo](http://beboblog.johnbebo.com/2010/03/13/fon2100-and-jasager.aspx)
-Nyan Cat page: www.slowbro.org
-Music loop: www.nyan.cat
+
+Nyan Cat page: http://www.slowbro.org
+
+Music loop: http://www.nyan.cat
+
+Do you know how to improve my work? Edit the file and send me a pull request
+It would be nice to remove current flash dependencies
