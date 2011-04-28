@@ -7,7 +7,7 @@ Nyaner brings the best of *Nyan Cat* and *Jasager*.
 
 Once connected, all DNS querys are redirected to the *Nyan Cat* page inside the router, so it is fully auto-contained as no internet connection is required.
 
-<img style="float:center" src="https://github.com/chiva/Nyaner/raw/master/images/nyam.png" />
+<img style="float:center" src="https://github.com/chiva/Nyaner/raw/master/images/nyan.png" />
 
 Installation
 ------------
