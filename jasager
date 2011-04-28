@@ -1,0 +1,23 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2008 dninja@gmail.com
+START=50
+
+start() {
+	include /lib/network
+	scan_interfaces
+	/karma/bin/create_option_list.rb
+	[ -d /karma/www -a -f /karma/etc/httpd.conf ] && httpd -p 1471 -h /karma/www -r karma -c /karma/etc/httpd.conf
+	#iptables -I FORWARD -i ath0 -o br-lan -j ACCEPT
+	
+	logread -f | awk '{if ($0 ~ /(KARMA: |DHCPACK|DHCPDISCOVER|DHCPOFFER|DHCPREQUEST)/) {sub (/ \(.*\).*: /, ": ", $0); print $0 ;}} ' > /tmp/status.log &
+	tail -f /tmp/status.log | /karma/bin/logwatch &
+	
+	wlanconfig ath0 create wlandev wifi0 wlanmode master 2>&1 > /dev/null
+	iwpriv ath0 karma 1
+	brctl addif br-lan ath0
+	ifconfig ath0 up
+}
+
+stop() {
+	killall httpd
+}
