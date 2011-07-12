@@ -26,7 +26,14 @@ Installation steps:
 5. Run install script. Try *chmod +x install.sh* if you are unable to launch the script
 6. Have fun!
 
-Everything is setup during boot, so just power it up and wait.
+Now what?
+---------
+
+Everything autostarts during boot, so just power it up and wait. It can work fully unattended.
+
+If you want to see how things are going:
+-Web interface: located on port 1471, login with your root username and password.
+-SSH: run *tail -f /tmp/status.log* It will show the same log as in the web interface, it also autoupdates.
 
 Thanks to
 ---------
