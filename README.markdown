@@ -7,7 +7,7 @@ Nyager brings the best of *Nyan Cat* and *Jasager*.
 
 Once connected, all DNS querys are redirected to the *Nyan Cat* page inside the router, so it is fully auto-contained as no internet connection is required.
 
-<img style="float:center" src="https://github.com/chiva/Nyaner/raw/master/images/nyan.png" />
+<img style="float:center" src="https://github.com/chiva/Nyager/raw/master/images/nyan.png" />
 
 Installation
 ------------
@@ -32,8 +32,9 @@ Now what?
 Everything autostarts during boot, so just power it up and wait. It can work fully unattended.
 
 If you want to see how things are going:
--Web interface: located on port 1471, login with your root username and password.
--SSH: run *tail -f /tmp/status.log* It will show the same log as in the web interface, it also autoupdates.
+
+- Web interface: located on port 1471, login with your root username and password.
+- SSH: run *tail -f /tmp/status.log* It will show the same log as in the web interface, it also autoupdates.
 
 Thanks to
 ---------
