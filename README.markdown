@@ -1,7 +1,7 @@
-Nyaner
+Nyager
 ======
 
-Nyaner brings the best of *Nyan Cat* and *Jasager*.
+Nyager brings the best of *Nyan Cat* and *Jasager*.
 
 [*Jasager*](http://www.digininja.org/jasager/) fools wifi cards making them think that the router is an already known one (for example the one at your home), so they connect automatically without asking permission to.
 
@@ -12,14 +12,21 @@ Once connected, all DNS querys are redirected to the *Nyan Cat* page inside the 
 Installation
 ------------
 
+Jasager is based on OpenWRT but madwifi drivers are only compatible with Atheros based routers.
+Compatible routers are the discontinued Fonera models and [Open Mesh](http://www.open-mesh.com).
+
 **NOTE:** This has only been tested with a *Fonera 2201* router.
 
 Installation steps:
 
-1. Flash Jasager firmware
-2. SCP files to router
-3. Run install script
-4. Have fun!
+1. [Unlock](http://www.fonboard.nl/w/index.php/HowTo_Foneraplus_unlocking2) *La Fonera*. If it's already unlocked skip this step
+2. Flash Jasager [firmware](http://www.digininja.org/files/jasager_firmware_1.0.tar.bz2)
+3. Telnet to the router (192.168.1.1) and execute *passwd* to add a password to the *root* user. Now you have SSH access
+4. SCP the contents of *files* folder to the router
+5. Run install script. Try *chmod +x install.sh* if you are unable to launch the script
+6. Have fun!
+
+Everything is setup during boot, so just power it up and wait.
 
 Thanks to
 ---------
