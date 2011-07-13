@@ -8,3 +8,13 @@
     font-weight: normal;
     font-style: normal;
 }
+h1.fontface {
+    font: 40px 'SilkscreenNormal', Arial, sans-serif;
+    letter-spacing: 0;
+    text-align:center;
+    color:#FFFF00
+}
+body {
+    background: url('http://192.168.1.1/bg.gif') repeat;
+    overflow: hidden;
+}
