@@ -1,6 +1,7 @@
 #!/bin/ash
 
 uci set wireless.wifi0.disabled=0
+uci set wireless.@wifi-iface[0].txpower=18
 uci commit wireless && wifi
 
 echo "address=/#/192.168.1.1" > /etc/dnsmasq.conf
