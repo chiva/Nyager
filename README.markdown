@@ -13,6 +13,7 @@ Installation
 ------------
 
 Jasager is based on OpenWRT but madwifi drivers are only compatible with Atheros based routers.
+
 Compatible routers are the discontinued Fonera models and [Open Mesh](http://www.open-mesh.com).
 
 **NOTE:** This has only been tested with a *Fonera 2201* router.
@@ -30,6 +31,8 @@ Now what?
 ---------
 
 Everything autostarts during boot, so just power it up and wait. It can work fully unattended.
+
+Remember that router's IP address is 192.168.1.1
 
 If you want to see how things are going:
 
