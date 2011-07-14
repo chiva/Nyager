@@ -50,3 +50,8 @@ Music loop and favicon: http://www.nyan.cat
 
 Do you know how to improve my work? Edit the file and send me a pull request
 It would be nice to remove current flash dependencies
+
+Demo
+----
+
+This is what you should get: http://chiva.github.com/Nyager
