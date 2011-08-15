@@ -12,9 +12,7 @@ Once connected, all DNS querys are redirected to the *Nyan Cat* page inside the 
 Installation
 ------------
 
-*Jasager* is based on OpenWRT but madwifi drivers are only compatible with Atheros based routers.
-
-Compatible routers are the pre-2.0g Fonera models, [Open Mesh](http://www.open-mesh.com) and of course Hak5's [Pineapple](http://hakshop.com/collections/frontpage/products/wifi-pineapple).
+*Jasager* is based on OpenWRT but madwifi drivers are only compatible with Atheros based routers like the pre-2.0g Fonera models, [Open Mesh](http://www.open-mesh.com), [Gargoyle](http://www.gargoyle-router.com) and of course Hak5's [Pineapple](http://hakshop.com/collections/frontpage/products/wifi-pineapple).
 
 **NOTE:** This has only been tested with a *Fonera 2201* router.
 
