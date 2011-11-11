@@ -5,7 +5,7 @@ Nyager brings the best of *Nyan Cat* and *Jasager*.
 
 [*Jasager*](http://www.digininja.org/jasager/) fools wifi cards making them think that the router is an already known one (for example the one at home), so they connect automatically without asking permission to.
 
-Once connected, all DNS querys are redirected to the *Nyan Cat* page inside the router, so it is fully auto-contained as no internet connection is required.
+Once connected, all DNS querys are redirected to the *Nyan Cat* page inside the router, so it is fully auto-contained and no internet connection is required.
 
 <img style="float:center" src="https://github.com/chiva/Nyager/raw/master/images/nyan.png" />
 
@@ -16,21 +16,28 @@ Installation
 
 **NOTE:** This has only been tested with a *Fonera 2201* router.
 
-Installation steps:
+**FIRMWARE**
+
+1. Download Nyager [firmware](https://github.com/downloads/chiva/Nyager/nyager_firmware_1.0.tar.gz)
+2. Flash firmware with [FonFlash](http://www.gargoyle-router.com/download.php). Select *FonFlash* in the *Download* dropdown list 
+3. Have fun!
+
+**MANUAL**
 
 1. [Unlock](http://www.fonboard.nl/w/index.php/HowTo_Foneraplus_unlocking2) *La Fonera*. If it's already unlocked skip this step
-2. Flash Jasager [firmware](http://www.digininja.org/files/jasager_firmware_1.0.tar.bz2)
-3. Telnet to the router (`192.168.1.1`) and execute `passwd` to add a password to the `root` user. Now you have SSH access
-4. SCP the contents of `files` folder to the router
-5. Run install script. Try `chmod +x install.sh` if you are unable to launch the script
-6. Have fun!
+2. Download Jasager [firmware](http://www.digininja.org/files/jasager_firmware_1.0.tar.bz2)
+3. Flash firmware with [FonFlash](http://www.gargoyle-router.com/download.php). Select *FonFlash* in the *Download* dropdown list
+4. Telnet to the router (`192.168.1.1`) and execute `passwd` to add a password to the `root` user. Now you have SSH access
+5. SCP the contents of `files` folder to the router
+6. Run install script. Try `chmod +x install.sh` if you are unable to launch the script
+7. Have fun!
 
 Now what?
 ---------
 
 Everything autostarts during boot, so just power it up and wait. It can work fully unattended.
 
-Remember that router's IP address is `192.168.1.1`
+Remember that router's IP address is `192.168.1.1` and if you installed from the full firmware, the password for the `root` user will be `nyancatrocks!`.
 
 If you want to see how things are going:
 
