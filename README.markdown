@@ -16,13 +16,16 @@ Installation
 
 **NOTE:** This has only been tested with a *Fonera 2201* router.
 
-**FIRMWARE**
+There are two ways to install Nyager, you can flash the Jasager firmware and then use the install script to modify it to what it should be or directly flash the Nyager firmware wich is already customized.
 
-1. Download Nyager [firmware](https://github.com/downloads/chiva/Nyager/nyager_firmware_1.0.tar.gz)
-2. Flash firmware with [FonFlash](http://www.gargoyle-router.com/download.php). Select *FonFlash* in the *Download* dropdown list 
-3. Have fun!
+**FIRMWARE** (easy way)
 
-**MANUAL**
+1. [Unlock](http://www.fonboard.nl/w/index.php/HowTo_Foneraplus_unlocking2) *La Fonera*. If it's already unlocked skip this step
+2. Download Nyager [firmware](https://github.com/downloads/chiva/Nyager/nyager_firmware_1.0.tar.gz)
+3. Flash firmware with [FonFlash](http://www.gargoyle-router.com/download.php). Select *FonFlash* in the *Download* dropdown list 
+4. Have fun!
+
+**MANUAL** (hard way)
 
 1. [Unlock](http://www.fonboard.nl/w/index.php/HowTo_Foneraplus_unlocking2) *La Fonera*. If it's already unlocked skip this step
 2. Download Jasager [firmware](http://www.digininja.org/files/jasager_firmware_1.0.tar.bz2)
